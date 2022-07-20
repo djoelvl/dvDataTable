@@ -1,0 +1,27 @@
+{
+  "name": "dvdatatable",
+  "version": "1.0.0",
+  "description": "Datatable with pagination and filters",
+  "keywords": [
+    "dvDatatable"
+  ],
+  "author": {
+    "name": "Dionis Valerio",
+    "email": "djoelvl1@gmail.com"
+  },
+  "license": "(ISC OR GPL-3.0)",
+  "peerDependencies": {
+    "@angular/common": "^13.0.0",
+    "@angular/core": "^13.0.0"
+   
+
+
+
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+    
+  },
+  "allowedNonPeerDependencies": {}
+
+}

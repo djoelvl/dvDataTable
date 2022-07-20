@@ -1,0 +1,113 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+.tablePaginationButtons {
+    width: 5rem;
+    height: 2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    background-color: #598BFF;
+    /* border: none; */
+    /* border-color: #598BFF; */
+    color: #ffffff;
+    border-radius: 0.2rem;
+
+    border: hidden;
+}
+
+.tablePaginationButtons:hover {
+    width: 5rem;
+    height: 2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    background-color: #7d9fee;
+    /* border: none; */
+    /* border-color: #598BFF; */
+    color: #ffffff;
+    border-radius: 0.2rem;
+
+    border: hidden;
+}
+
+.tablePaginationButtons:disabled {
+    width: 5rem;
+    height: 2rem;
+    margin: 0.5rem;
+    background-color: #F2F2F2;
+    cursor: initial;
+    border-color: #525252;
+    border: groove;
+    color: #c9c8c8;
+    border-radius: 0.2rem;
+    border: hidden;
+}
+
+.numberOfPageButtons {
+    width: auto;
+    min-width: 2rem;
+    margin: 0.2rem;
+    max-width: 6rem;
+    height: 2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    background-color: #b7c3df;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    border: hidden;
+}
+
+.numberOfPageButtons:hover {
+    width: auto;
+    min-width: 2rem;
+    max-width: 6rem;
+    height: 2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    background-color: #598BFF;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    border: hidden;
+}
+
+.numberOfPageButtons:disabled {
+    width: auto;
+    height: 2rem;
+    max-width: 6rem;
+    margin: 0.5rem;
+    background-color: #F2F2F2;
+    cursor: initial;
+    border-color: #525252;
+    border: groove;
+    color: #c9c8c8;
+    border-radius: 0.2rem;
+    border: hidden;
+}
+
+.searchButton {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    border-radius: 0.2rem;
+    background-color: #EAEFF5;
+}
+
+.paginationSelect {
+    margin-left: 0.5rem;
+    width: 4rem;
+    height: 1.5rem;
+    border-color: #598BFF;
+    border-radius: 0.2rem;
+}
+
+.noData {
+    display: flex;
+    justify-content: space-around;
+    background: #EAEFF5;
+    margin-bottom: 0.3rem;
+}
+
+.editButtonTb {
+    background-color: #598BFF;
+}
